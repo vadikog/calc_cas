@@ -14,18 +14,18 @@ body {
     font-family: 'Roboto', sans-serif;
     //color: #645555;
     width: 100vw;
-    //height: 100vh; 
+    height: 100vh; 
     background-image: url(/style/img/gajet.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: inherit;
+    background-position: top center; //center center
+    background-size: 100vh; //cover
 }
 .body-bg {
     display: flex;
     background-color: #868e8fd5;
 }
 .main-header {
-    background-color: #4a5354;
+    background-color: #717777;
     display: inline-flex; /* занимает всю ширину и высоту тега header */ 
     padding-left: 40px; //80px
     padding-right: 70px; //140px
@@ -98,13 +98,13 @@ body {
             }
 }
 .main-block {
-    width: 70vw;
+    width: 60vw;
     border: 1px solid #f90606;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    margin: 8rem 0 0 10rem; 
-    //margin-left: 10rem;
+    margin-top: 8rem; 
+    margin-left: 10rem;
 }
 .main-title {
     font-family: @fontOswald;
@@ -156,7 +156,7 @@ body {
 }
 .proj-txt {
     display: flex;
-    width: 60vw;
+    width: 50vw;
     border: 1px solid rgb(30, 255, 0);
     box-sizing: border-box;
     padding-left: 10px;
