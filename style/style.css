@@ -14,7 +14,7 @@ body {
   background-image: url(/style/img/gajet.jpg);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: 100vh;
+  background-size: cover;
 }
 .body-bg {
   display: flex;
@@ -33,8 +33,8 @@ body {
   margin-top: 50px;
 }
 .img-logo {
-  width: 98px;
-  height: 98px;
+  width: 96px;
+  height: 96px;
   border: 4px solid #fff;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
@@ -69,7 +69,7 @@ body {
 }
 /* пересмотреть блок контакт, возможно сократить див. Заменить support на contact */
 .block-contact {
-  margin-top: 10rem;
+  margin-top: 15rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,7 +79,7 @@ body {
   font-size: 1.7rem;
 }
 .support {
-  margin-bottom: 47px;
+  margin-bottom: 10rem;
 }
 .support__link {
   text-decoration: none;
@@ -91,8 +91,7 @@ body {
   color: #313146;
 }
 .main-block {
-  width: 60vw;
-  border: 1px solid #f90606;
+  width: 63vw;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -134,9 +133,10 @@ body {
 .image:hover {
   transform: scale(2);
   outline: 5px solid #313146;
-  outline-offset: -4px;
+  outline-offset: -5px;
 }
 .portfolio {
+  font-size: 1.6rem;
   text-decoration: none;
   color: #fff;
   transition: all 0.3s ease-in-out;
@@ -147,12 +147,19 @@ body {
 .proj-txt {
   display: flex;
   width: 50vw;
-  border: 1px solid #1eff00;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.proj-txt-2 {
+  display: flex;
+  width: 60vw;
   box-sizing: border-box;
   padding-left: 10px;
   padding-right: 10px;
 }
 .img-prj-l {
+  margin-top: 15px;
   border: 4px solid #fff;
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
@@ -163,6 +170,7 @@ body {
   outline-offset: -4px;
 }
 .img-prj-2 {
+  margin-top: 15px;
   margin-right: 20px;
   border: 4px solid #fff;
   border-radius: 10px;
