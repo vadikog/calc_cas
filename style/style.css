@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  width: 100vw;
+  background-image: url(/style/img/gajet.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: inherit;
+}
+.body-bg {
+  display: flex;
+  background-color: #868e8fd5;
+}
+.main-header {
+  background-color: #4a5354;
+  display: inline-flex;
+  /* занимает всю ширину и высоту тега header */
+  padding-left: 40px;
+  padding-right: 70px;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  margin-top: 50px;
+}
+.img-logo {
+  width: 98px;
+  height: 98px;
+  border: 4px solid #fff;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.img-logo:hover {
+  outline: 5px solid #313146;
+  outline-offset: -4px;
+}
+.block-nav {
+  margin-top: 47px;
+}
+.nav-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.nav-item {
+  font-family: "Oswald", san-serif;
+}
+.nav-item__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  line-height: 9.4rem;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.nav-item__link:hover {
+  color: #313146;
+}
+/* пересмотреть блок контакт, возможно сократить див. Заменить support на contact */
+.block-contact {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  font-family: "Oswald", san-serif;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+.support {
+  margin-bottom: 47px;
+}
+.support__link {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+  line-height: 9.4rem;
+}
+.support__link:hover {
+  color: #313146;
+}
+.main-block {
+  width: 70vw;
+  border: 1px solid #f90606;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 8rem 0 0 10rem;
+}
+.main-title {
+  font-family: "Oswald", san-serif;
+  font-weight: 700;
+  font-size: 4.4rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  width: 70%;
+}
+.main-title span {
+  font-size: 7rem;
+  color: #313146;
+  letter-spacing: 0px;
+}
+.main-description {
+  font-family: Roboto, serif;
+  margin-top: 15px;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+.block-image {
+  margin: 0.1rem 0 1rem 1rem;
+}
+.image {
+  width: 200px;
+  height: auto;
+  margin-right: 2%;
+  border: 4px solid #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.image:hover {
+  transform: scale(2);
+  outline: 5px solid #313146;
+  outline-offset: -4px;
+}
+.portfolio {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio:hover {
+  color: #313146;
+}
+.proj-txt {
+  display: flex;
+  width: 60vw;
+  border: 1px solid #1eff00;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.img-prj-l {
+  border: 4px solid #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.img-prj-l:hover {
+  transform: scale(2.5);
+  outline: 5px solid #313146;
+  outline-offset: -4px;
+}
+.img-prj-2 {
+  margin-right: 20px;
+  border: 4px solid #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.img-prj-2:hover {
+  transform: scale(2.5);
+  outline: 5px solid #313146;
+  outline-offset: -4px;
+}
